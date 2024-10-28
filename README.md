@@ -14,7 +14,6 @@ Follow the instructions below to set up and run the project on your local machin
     customer NVARCHAR(100),
     address NVARCHAR(200)
 );
-
 CREATE TABLE ItemOrder (
     id_item NVARCHAR(50) NOT NULL,
     id_order NVARCHAR(50) NOT NULL,
@@ -24,7 +23,6 @@ CREATE TABLE ItemOrder (
     total AS (qty * price) PERSISTED,
     FOREIGN KEY (id_order) REFERENCES SalesOrder(id_order)
 );
-
      ```
      
 2. **Start Project**
