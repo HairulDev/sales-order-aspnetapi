@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AiTXsvywAiBsIf8loyH3nhB3KcpfmHicvVXDt4RBrS0=",
+  "Source": "sales-order-restapi",
+  "BasePath": "_content/sales-order-restapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
